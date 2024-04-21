@@ -1,0 +1,8 @@
+### Starting build.
+# Target: sugarcane.ml.depends, tags: { extension:ml, file:sugarcane.ml, ocaml, ocamldep, quiet }
+ocamlfind ocamldep -modules sugarcane.ml > sugarcane.ml.depends
+# Target: sugarcane.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:sugarcane.cmo, file:sugarcane.ml, implem, ocaml, quiet }
+ocamlfind ocamlc -c -o sugarcane.cmo sugarcane.ml
+# Target: sugarcane.byte, tags: { byte, dont_link_with, extension:byte, file:sugarcane.byte, link, ocaml, program, quiet }
+ocamlfind ocamlc -linkpkg sugarcane.cmo -o sugarcane.byte
+# Compilation successful.

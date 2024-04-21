@@ -1,0 +1,4 @@
+"Resource: /mnt/c/Users/ivang/OneDrive/Desktop/github/sugarcane/sugarcane/sugarcane.ml": "\145$\229\253\016=\242\150\160@\221\207\239\181\217]"
+"Rule: ocaml: ml -> cmo & cmi (%=sugarcane )": "5\220\165\212\017\213.\139\179:\166(\196y\155\197"
+"Rule: ocaml: cmo* -> byte (%=sugarcane )": "\143]l\n\1697\253\134\166\167\157\rl\024\206\156"
+"Rule: ocaml dependencies ml (%=sugarcane )": "]w\236H\241\239\196\173\156Tl7=\026\133^"
